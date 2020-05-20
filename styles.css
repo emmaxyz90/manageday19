@@ -1,0 +1,511 @@
+/*Body Styling*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image:url(./images/bg-tablet-pattern.svg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 600px;
+	overflow-x: hidden;
+}
+
+/*Header Styling*/
+#header .section-title .navigation-head{
+	position:fixed;
+	background-color:#f2f2f2;
+	padding-top: 3%;
+	padding-left:8%;
+	width: 100%;
+	padding-bottom: 1%;
+	z-index:1;
+}
+
+#header .section-title .navigation-head img{
+	display: inline-block;
+}
+
+#header .section-title .navigation-head .navbar{
+	position: relative;
+	top: -10px;
+	display: inline-block;
+	margin-left: 30%;	
+}
+
+#header .section-title .navigation-head .navbar li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 20px;
+}
+
+#header .section-title .navigation-head .navbar li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 0.9em;
+}
+
+#header .section-title .navigation-head .navbar .last a{
+	margin-left: 100px;
+	border: 1px solid hsl(12, 88%, 59%);
+	background-color: hsl(12, 88%, 59%);
+	padding:10px 20px;
+	border-radius: 25px;
+	font-size: 0.9em;	
+}
+
+#header .section-title .navigation-head .navbar li a:hover{
+	padding-bottom: 10px;
+	border-bottom: 1px solid hsl(12, 88%, 59%);
+	color: #8c8c8c;
+}
+
+#header .section-title .navigation-head .navbar .last a:hover{
+	color: #fff;	
+}
+
+/*Section1 Styling*/
+#section1 .section-title {
+	padding-top: 100px;
+	padding-left: 8%;
+}
+
+#section1 .section-title .section-left{
+	width: 42%;
+	display: inline-block;
+	position: relative;
+	top:-150px;
+}
+
+#section1 .section-title .section-right{
+	width: 45%;
+	display: inline-block;
+	position: relative;
+	top: 50px;
+}
+
+#section1 .section-title .section-left .title h3{
+	font-size:3.0em;
+	font-weight: bold;
+	color:  #262626;
+}
+
+#section1 .section-title .section-left .content{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#section1 .section-title .section-left .content p{
+	font-size: 0.9em;
+	padding-bottom:3px; 
+}
+
+#section1 .section-title .section-left .button span{
+	border: 1px solid hsl(12, 88%, 59%);
+	background-color: hsl(12, 88%, 59%);
+	padding: 10px 20px;
+	border-radius: 25px;
+}
+#section1 .section-title .section-left .button span a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#section1 .section-title .section-left .button span a:hover{
+	color:#8c8c8c;
+}
+
+/*Section2 Styling*/
+
+#section2 .section-title{
+	padding-top:150px;
+	padding-left: 8%;
+	padding-bottom: 2%;
+}
+
+#section2 .section-title .section-left{
+	width: 40%;
+	display: inline-block;
+	position: relative;
+	top: -150px;
+}
+
+#section2 .section-title .section-right{
+	display: inline-block;	
+}
+
+#section2 .section-title .section-left h3{
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+#section2 .section-title .section-left .para{
+	padding-top: 25px;
+}
+
+#section2 .section-title .section-left .para p{
+	padding-bottom: 4px;
+	font-size: 0.9em;
+}
+
+#section2 .section-title .section-right .thumb{
+	padding-bottom: 20px;
+	padding-left: 50px;
+}
+
+#section2 .section-title .section-right .thumb .number{
+	padding: 10px;
+	background-color:hsl(12, 88%, 59%);
+	border-radius: 40%;
+	display:inline-block;
+	position: relative;
+	top: -70px;
+	width: 50px;
+	text-align: center;
+}
+
+#section2 .section-title .section-right .thumb .number span{
+	color: #fff;	
+}
+
+#section2 .section-title .section-right .thumb .para{
+	display: inline-block;
+	padding-left: 30px;
+}
+
+#section2 .section-title .section-right .thumb .para h3{
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+
+#section2 .section-title .section-right .thumb .para p{
+	font-size: 0.9em;
+}
+
+/*Section3 Styling*/
+#section3 .container {
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+
+#section3 .container .section-head{
+	padding-bottom: 40px;
+}
+
+#section3 .container .section-head h2{
+	text-align: center;
+	font-size: 2em;
+	font-style: normal;
+}
+
+#section3 .container .section-body .thumb{
+	display: inline-block;
+	width:24%;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+
+#section3 .container .section-body .thumb .img{
+	width: 50px;
+	height: 50px;
+	align-items: center;
+	margin: 0 auto;
+	position: relative;
+	top: 20px;
+}
+
+#section3 .container .section-body .thumb .img .img-responsive{
+	width: 100%;
+	height: 100%;
+}
+
+#section3 .container .section-body .thumb .content{
+	background-color:#f2f2f2;
+	padding: 35px 0;
+}
+
+#section3 .container .section-body .thumb .content h3{
+	font-size: 1em;
+	text-align: center;
+	padding-bottom:10px ;
+}
+
+#section3 .container .section-body .thumb .content p{
+	font-size: 0.8em;
+	text-align: center;
+	padding-bottom: 4px;
+}
+
+#section3 .container .button{
+	margin: 0 auto;
+	width: 100px;
+	background-color:hsl(12, 88%, 59%);
+	padding: 10px; 
+	border-radius: 15px;
+}
+
+#section3 .container .button a{
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+	color: #fff;	
+}
+
+#section3 .container .button a:hover{
+	color: #404040;
+}
+
+/*footer*/
+
+#footer .section-title .section-top{
+	background-color:hsl(12, 88%, 59%);
+	padding: 30px 100px;
+}
+
+#footer .section-title .section-top .left{
+	display: inline-block;
+	width: 25%;
+}
+
+#footer .section-title .section-top .left p{
+	font-size: 1.8em;
+	color: #fff;
+}
+
+#footer .section-title .section-top .right{
+	display: inline-block;
+	margin-left: 55%;
+	width: 100px;
+	background-color:#fff;
+	padding: 10px; 
+	border-radius: 15px;
+	position: relative;
+	top:-9px;
+}
+
+#footer .section-title .section-top .right a{
+	text-decoration: none;
+	color: #404040;
+}
+
+#footer .section-title .section-top .right a:hover{
+	color: hsl(12, 88%, 59%);
+}
+
+#footer .section-title .section-bottom{
+	background-color: hsl(233, 12%, 13%);
+	padding-top: 40px;
+}
+
+#footer .section-title .section-bottom .left{
+	padding-left: 100px;
+	display: inline-block;
+}
+
+#footer .section-title .section-bottom .left .logo{
+	padding-bottom: 50px;
+}
+
+#footer .section-title .section-bottom .center{
+	display: inline-block;
+	padding-left: 200px;
+}
+
+#footer .section-title .section-bottom .right{
+	display: inline-block;
+	padding-left: 200px;
+}
+
+#footer .section-title .section-bottom .center .navbar-left{
+	display: inline-block;
+	padding-right: 200px;
+}
+
+#footer .section-title .section-bottom .center .navbar-right{
+	display: inline-block;
+}
+
+#footer .section-title .section-bottom .center .navbar-left li{
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+#footer .section-title .section-bottom .center .navbar-right li {
+	list-style: none;
+	padding-bottom: 15px;
+	position: relative;
+	top: -15px;
+}
+
+#footer .section-title .section-bottom .right .input{
+	padding-bottom: 60px;
+}
+
+#footer .section-title .section-bottom .center .navbar-left li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 0.9em;
+}
+
+#footer .section-title .section-bottom .center .navbar-right li a{
+	text-decoration: none;
+	color: #fff;
+	font-size:0.9em;
+}
+
+#footer .section-title .section-bottom .center .navbar-left li a:hover{
+	color:hsl(12, 88%, 59%);
+}
+
+#footer .section-title .section-bottom .center .navbar-right li a:hover{
+	color:hsl(12, 88%, 59%);
+}
+
+#footer .section-title .section-bottom .right #input{
+	font-size: 1.2em;
+	border-radius: 15px;
+	background-color: white;
+	padding: 5px;
+	outline: none;
+	color: hsl(12, 88%, 59%);
+}
+
+#footer .section-title .section-bottom .right a{
+	margin-left: 10px;
+	padding: 10px;
+	background-color:hsl(12, 88%, 59%);
+	color: #fff;
+	border-radius: 20px;
+	text-decoration; none;
+}
+
+#footer .section-title .section-bottom .right a:hover{
+	color: #404040;
+}
+
+#footer .section-title .section-bottom .right p{
+	color: #404040;
+	font-size: 0.9em;
+}
+
+ #footer .section-title .section-bottom .attribution {
+	 font-size: 0.8em; 
+	 text-align: center; 
+	 padding-bottom: 5px;
+}
+
+#footer .section-title .section-bottom .attribution a { 
+	color: hsl(228, 45%, 44%); 
+	text-decoration: none;	
+}
+
+#footer .section-title .section-bottom .attribution a:hover{
+	color: hsl(12, 88%, 59%);
+}
+  
+  
+  /*Responsive Website for Mobile*/
+  @media only screen and (max-width: 600px){
+	  #header .section-title .navigation-head{
+		  position: relative;
+		  z-index: 0;
+	  }
+	  
+	  #header .section-title .navigation-head img{
+		  display: block;
+		  padding-bottom:10px
+	  }
+	  
+	  #header .section-title .navigation-head .navbar{
+		  display: block;
+		  margin: 0 auto;		 
+		  text-align: center;
+	  }
+	  
+	  #header .section-title .navigation-head .navbar li{
+		  display: block;
+		  margin:0 auto;
+		  padding-bottom: 15px;
+	  }
+	  
+	    #header .section-title .navigation-head .navbar .last{
+			margin: 0;
+			padding:10px 0; 
+			position: relative;
+			left: -50px;
+		}
+		
+		#section1 .section-title{
+			margin-top: 100px;
+		}
+		
+		#section1 .section-title .section-left{
+			display: block;
+			width: 100%;			
+		}
+		
+		#section1 .section-title .section-right{
+			display: block;			
+			position: relative;
+			top: -100px;
+			left:-60px;
+		}
+		
+		#section2 .section-title .section-left{
+			width: 100%;
+			display: inline-block;
+		}
+		
+		#section2 .section-title .section-right{
+			display: block;
+		}
+		
+		#section2 .section-title .section-right .thumb{
+			padding-left: 5px;
+		}
+		
+		#section3 .container .section-body .thumb{
+			display: block;
+			width: 100%;
+		}
+		
+		#footer .section-title .section-top .left{
+			display: block;
+			width: 100%;
+		}
+		
+		#footer .section-title .section-top .right{
+			display: block;
+			margin: 0 auto;
+			top: 20px;
+		}
+		#footer .section-title .section-bottom .left{
+			display: block;
+			align-items: center;
+			justify-content: center;
+			padding-bottom: 10px;
+		}
+		
+		#footer .section-title .section-bottom .center{
+			display: block;
+			padding-left: 150px ;
+		}
+		
+		#footer .section-title .section-bottom .right{
+			display: block;
+			padding-left: 100px ;
+			padding-bottom: 10px;
+		}
+		
+		#footer .section-title .section-bottom .center .navbar-left{
+			display: block;
+			padding-bottom:20px;
+		}
+		
+		#footer .section-title .section-bottom .center .navbar-right{
+			display: block;
+			padding-bottom: 20px;
+		}
+	}
